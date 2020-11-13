@@ -1,0 +1,51 @@
+<html>  
+<h1>E7 Stat Previewer</h1>
+<!-- <select>
+  <option value="unit-name">Luna</option>
+</select> -->
+<input id='base-hp' type="text" placeholder="base-hp"> 
+<input id='base-def' type="text" placeholder="base-def"> 
+<input id='base-atk'  type="text" placeholder="base-atk">
+<input id='base-spd'  type="text" placeholder="base-spd">
+<input id='spd-set' type='checkbox'> Speed Set
+<br>
+<ul>
+  <li>
+    HP% <input id='hp-percent'type="text" placeholder="hp%">
+  </li>
+  <li>
+    Flat HP<input id='hp-flat'type="text" placeholder="hp">
+  </li>
+  <li>
+    DEF% <input id='def-percent' type="text" placeholder="def%">
+  </li>
+  <li>
+    Flat DEF<input id='def-flat' type="text" placeholder="def">
+  </li>
+  <li>
+    ATK% <input id='atk-percent' type="text" placeholder="atk%">
+  </li>
+  <li>
+    Flat ATK<input id='atk-flat' type="text" placeholder="atk">
+  </li>
+  <li>
+    Speed <input id='speed' type="text" placeholder="speed">
+  </li>
+
+    <button id='calculate-button' >Calculate</button>
+  </li>
+</ul>
+
+<div>
+  <h2>Calculated Stats</h2>
+  <ul>
+    <li>HP: <label id="hp-calc"></label></li>
+    <li>DEF: <label id="def-calc"></label></li>
+    <li>ATK: <label id="atk-calc"></label></li>
+    <li>SPD: <label id="spd-calc"></label></li>
+  </ul>
+</div>
+
+
+<script src='script.js'></script>
+</html>
